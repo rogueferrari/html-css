@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgrey;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(94, 94, 94);
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.404);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 25px 0px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(138, 138, 138);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        section#bandeira {
+            height: 200px;
+            width: 400px;
+            margin: 20px;
+            background-color: black;
+        }
+
+        div#bandeira {
+            height: 130px;
+            width: 300px;
+            background-color: white;
+        }
+
+        section > div {
+            margin: auto;
+            border: 35px solid black;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            margin-left: 100px;
+            margin-top: 16px;
+            border-radius: 50%;
+        }
+
+        div#descricao > p {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+        <p>Esportes Política Tecnologias</p>
+        </section>
+        <section id="noticias"></section>
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea porro magnam vel temporibus blanditiis vero a sunt quidem ipsum, aspernatur inventore quaerat voluptates repellat, officiis quia harum optio consequuntur et.</p>
+                <aside>Artigo escrito por José da Silva</aside>
+            </article>
+            <article>
+
+            </article>
+    </main>
+    <footer>
+        <p>Desenvolvido por RodrigoRogue</p>
+    </footer>
+    <div id="descricao">
+        <p> - Bandeira do Japão: </p>
+    </div>
+    <section id="bandeira">
+        <div id="bandeira">
+            <div id="bola"></div>
+        </div>
+    </section>
+</body>
+</html>
